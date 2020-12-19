@@ -1,10 +1,11 @@
 package com.testRunners;
 
-import org.junit.AfterClass;
-import org.junit.runner.RunWith;
+
+//import org.junit.AfterClass;
+//import org.junit.runner.RunWith;
 
 import com.vimalselvam.cucumber.listener.Reporter;
-import org.testng.annotations.Test;
+//import org.testng.annotations.Test;
 //import io.cucumber.junit.CucumberOptions;
 //import io.cucumber.testng.AbstractTestNGCucumberTests; Testng Run
 //import io.cucumber.junit.CucumberOptions; Junit Run
@@ -17,7 +18,7 @@ import io.cucumber.testng.CucumberOptions;
 		// Run should be used in JUnit only
 		// features and glue is important
 
-  	@CucumberOptions(features = "src/test/resources/Features/spicejetFlights.feature", plugin = { "pretty",
+	@CucumberOptions(features = "src/test/resources/Features/spicejetFlights.feature", plugin = { "pretty",
 				"html:Reports/cucumber-html-report", "json:Reports/cucumber-html-report/jsonreport.json",
 				"rerun:target/cucumber-reports/rerun.txt",
 				"com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:",
@@ -39,4 +40,3 @@ import io.cucumber.testng.CucumberOptions;
 				Reporter.setTestRunnerOutput("Project Natural Report");
 			}
 		}
-	

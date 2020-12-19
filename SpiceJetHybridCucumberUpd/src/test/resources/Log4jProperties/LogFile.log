@@ -205,3 +205,7 @@
 2020-12-18 18:38:27,729 - com.baseClasses.Library -INFO - Launched the cucumber Application
 2020-12-18 18:38:27,730 - com.baseClasses.Library -INFO - **Browser has launched****
 2020-12-18 18:39:01,657 - com.baseClasses.Library -INFO - Exiting the application and closing the browser
+2020-12-18 20:59:53,985 - com.baseClasses.Library -INFO - **Starting with Browser Set Up****
+2020-12-18 21:01:25,105 - com.baseClasses.Library -INFO - Launched the cucumber Application
+2020-12-18 21:01:25,106 - com.baseClasses.Library -INFO - **Browser has launched****
+2020-12-18 21:02:05,142 - com.baseClasses.Library -INFO - Exiting the application and closing the browser
